@@ -1,1 +1,161 @@
-<body></body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>cv</title>
+  <link rel="icon" href="./assets/favicon.ico">
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/favicon.ico">
+  <script src="./assets/js/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <ul class="nav-list">  
+            <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>        
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>           
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li> 
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>         
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>            
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+    </header>
+   
+    <main class="main">
+      <div class="container main-container">
+        <div class="left">
+            <section id="image">
+                <img src="assets/img/thumbnail.png" alt="Korovaiko Sergei">
+            </section>
+            <section id="contacts">
+                <h2>Contacts</h2>
+                <ul class="section-list">                    
+                    <li class="section-item contacts-item">
+                        <img src="assets/svg/address.svg" alt="address"> Minsk, Belarus
+                    </li>
+                    <li class="section-item contacts-item">
+                        <img src="assets/svg/phone.svg" alt="phone"> <a href="tel:+375292803284">+375 29 280 32 84</a>
+                    </li>
+                    <li class="section-item contacts-item">
+                        <img src="assets/svg/email.svg" alt="email"> <a href="mailto:dsa0077@yandex.ru  " title="email">dsa0077@yandex.ru  </a>
+                    </li>
+                    
+                </ul>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul class="section-list">                    
+                    <li class="section-item contacts-item">
+                        <img src="assets/svg/check.svg" alt="check"> HTML
+                    </li>
+                    <li class="section-item contacts-item">
+                        <img src="assets/svg/check.svg" alt="check"> CSS
+                    </li>
+                    <li class="section-item contacts-item">
+                        <img src="assets/svg/check.svg" alt="check"> JavaScript (Basic)
+                    </li>
+                    <li class="section-item contacts-item">
+                        <img src="assets/svg/check.svg" alt="check"> PHP (Basic)
+                    </li>
+                    <li class="section-item contacts-item">
+                        <img src="assets/svg/check.svg" alt="check"> Yii PHP Framework (Basic)
+                    </li>
+                    <li class="section-item contacts-item">
+                        <img src="assets/svg/check.svg" alt="check"> WordPress
+                    </li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="subsection">
+                    <a href="https://Serg0907.github.io/rsschool-cv/">
+                        <img src="assets/img/resume.jpg" alt="Resume">
+                        <div class="title">Resume</div>
+                    </a>
+                </div>
+            </section>
+
+        </div>
+        <div class="right">
+            <section id="profile">
+                <h1>Korovaiko Sergei</h1>
+                <div class="section-subtitle">Junior Front-End Developer</div>
+            </section>
+
+            <section id="summary">
+                <h2>Summary</h2>
+                <div class="subsection">I really want to learn. I am focused on the result. I have an active life position, striving for development and professional growth.</div>
+            </section>
+
+            <section id="experience">
+                <h2>Experience</h2>
+                <div class="subsection">Website development on CMS Wordpress (online stores, landing pages, corporate sites), working with MYSQL databases, the basics of SEO promotion.</div>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <div class="subsection">
+                    <div class="left-subsection">2003 - 2008</div>
+                    <div class="right-subsection">
+                        <div class="title">Belarusian National Technical University</div>
+                        <div class="info">
+                            <span class="item">Specialty: «Business-Administration»</span>
+                            <span class="item">Qualification: manager-economist</span>
+                        </div>
+                    </div>
+                </div>
+            </section>            
+
+            <section id="code">
+                <h2>Code</h2>
+                <div class="subsection">
+                    <pre class="pre"><code>function greet() {
+    let message;
+    message = 'hello world!';
+    return message;
+}</code></pre>                    
+                </div>
+            </section>           
+
+            <section id="languages">
+                <h2>Languages</h2>
+                <div class="subsection">Intermediate (as the main foreign language during university studies)</div>
+            </section>
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="content-footer">
+            <div class="left-side">
+                © 2022 <a href="https://github.com/Serg0907" class="github nav-link" target="_blank">Serg0907</a>
+            </div>
+            
+              <a href="https://rs.school/js/" class="rss" target="_blank">
+                <img src="assets/svg/rs_school_js.svg" alt="rs.school">
+              </a>
+            
+        </div>
+      </div>
+    </footer>
+
+<script src="./assets/js/script.js"></script>
+
+</body>
+</html>
