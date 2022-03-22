@@ -118,6 +118,10 @@ body {
 	text-decoration: none;
 }
 
+#contacts .contacts-item a:hover {
+    text-decoration: underline;
+}
+
 #profile {
     text-align: center;
     padding: 100px 0 80px 0;
