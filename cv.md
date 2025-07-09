@@ -3,7 +3,7 @@
 ## My contacts:
 **Address:** Dolgobrodskaya st., Minsk, Belarus  
 **Phone:** +375 29 280 32 84  
-**E-mail:** ksm0907@yandex.by 
+**E-mail:** ksm0907@yandex.by  
 **GitHub:** Serg0907
 
 
